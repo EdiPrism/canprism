@@ -1,0 +1,46 @@
+name: Bug Report
+description: Report a DBC/ARXML parsing, Motorola/Intel bit-matrix, J1939, or bus-trace decoding issue
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **OEM NDA / UNECE WP.29 Safety Warning:** **NEVER** paste or attach proprietary OEM `.dbc` / `.arxml` signal matrices or confidential vehicle logs into public GitHub issues. Use a minimal synthetic `BO_` / `SG_` snippet or run `Alt+Shift+R` (**Export NDA-Scrubbed DBC Test Fixture**) first.
+  - type: dropdown
+    id: ide
+    attributes:
+      label: JetBrains IDE
+      options:
+        - CLion
+        - PyCharm
+        - RustRover
+        - IntelliJ IDEA (Unified / Community / Ultimate)
+        - Rider
+        - DataGrip
+        - GoLand
+        - WebStorm
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: IDE Version & CanPrism Version
+      placeholder: "e.g., CLion 2025.3.1 • CanPrism v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Steps to Reproduce & Synthetic Sample (.dbc / .arxml / candump)
+      placeholder: |
+        BO_ 256 SynthFrame: 8 ECU1
+         SG_ TestSig : 15|16@0- (0.1,0) [-500|500] "Nm" ECU2
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. Actual Behavior
+    validations:
+      required: true
