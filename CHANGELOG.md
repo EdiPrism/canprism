@@ -1,5 +1,10 @@
 # Changelog — CanPrism DBC ARXML Viewer
 
+## [1.0.1] - 2026-11-13
+
+### Added
+- **Air-Gap-Safe Feedback Menu & Sanitized Crash Diagnostics (`?` ToolWindow Header & `IDE Fatal Errors`):** Added a zero-socket `?` Feedback & Support menu on the `CanPrism` ToolWindow header bar (`Report Bug`, `Suggest Feature`, and `Copy Air-Gapped Diagnostic Template` for offline HIL/lab machines) plus a native IntelliJ `<errorHandler>` that strips local file paths and redacts raw exception messages so OEM `.dbc`/`.arxml` identifiers can never leak.
+
 ## [1.0.0] - 2026-11-13
 
 ### Added

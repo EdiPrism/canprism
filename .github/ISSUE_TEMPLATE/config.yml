@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CanPrism CAN / DBC / ARXML / J1939 Engineering Hub
+    url: https://ediprism.github.io/can/
+    about: Browse Motorola (@0+) vs Intel (@1+) bit-packing math, SAE J1939 29-bit PGN decoding, and AUTOSAR ARXML guides.
+  - name: EdiPrism Enterprise Support & Licensing Hub
+    url: https://ediprism.github.io/support.html
+    about: Licensing, JetBrains Marketplace Organization seats, corporate POs, and air-gapped compliance inquiries.
