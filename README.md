@@ -1,8 +1,9 @@
 # CanPrism DBC ARXML Viewer — Offline CAN / CAN FD, J1939 & AUTOSAR Inspector for JetBrains IDEs
 
-[![Portal](https://img.shields.io/badge/Docs_%26_Reference-ediprism.github.io-0284c7)](https://ediprism.github.io/)
+[![JetBrains Marketplace](https://img.shields.io/jetbrains/plugin/v/36115-canprism-dbc-arxml-viewer?label=JetBrains_Marketplace_%2336115&color=087CFA)](https://plugins.jetbrains.com/plugin/36115-canprism-dbc-arxml-viewer)
+[![Portal](https://img.shields.io/badge/Docs_%26_Reference-ediprism.github.io-0284c7)](https://ediprism.github.io/can/)
 [![Execution](https://img.shields.io/badge/Execution-100%25_Offline_%26_Air--Gapped-10B981)](https://ediprism.github.io/privacy.html)
-[![Platform](https://img.shields.io/badge/JetBrains_IDEs-2025.1%2B_(CLion_%2F_PyCharm_%2F_RustRover_%2F_IDEA)-087CFA)](https://ediprism.github.io/)
+[![Platform](https://img.shields.io/badge/JetBrains_IDEs-2025.1%2B_(CLion_%2F_PyCharm_%2F_RustRover_%2F_IDEA)-087CFA)](https://plugins.jetbrains.com/plugin/36115-canprism-dbc-arxml-viewer)
 
 **Deterministic, 100% offline / air-gapped automotive & embedded `CAN / CAN FD Database` (`.dbc`), `AUTOSAR Network Description` (`.arxml`), and `SAE J1939 / SocketCAN` inspector featuring an interactive `64-bit / 512-bit Motorola & Intel Frame Bit-Packing Matrix`, signal bit-overlap validator, semantic `Ctrl+D` network diff, raw `candump`/`.asc` physical decoder, and clean-room `C99` codec generator across all JetBrains IDEs** (`CLion`, `PyCharm`, `RustRover`, `IntelliJ IDEA`, `Rider`, `DataGrip`, `GoLand`, `WebStorm`).
 
@@ -17,6 +18,7 @@ Built for EV powertrain, ADAS, battery management (`BMS`), robotics, drone, heav
 
 ## Installation
 
+- **JetBrains Marketplace (`#36115`):** **[Install `CanPrism DBC ARXML Viewer` from JetBrains Marketplace ->](https://plugins.jetbrains.com/plugin/36115-canprism-dbc-arxml-viewer)**
 - **Inside Any JetBrains IDE (`2025.1+`):** Open **Settings / Preferences** (`Ctrl+Alt+S` / `Cmd+,`) -> **Plugins** -> **Marketplace** -> search **`CanPrism DBC ARXML Viewer`** -> click **Install** (dynamic plugin — zero IDE restart required).
 
 ---
@@ -58,7 +60,7 @@ Built for EV powertrain, ADAS, battery management (`BMS`), robotics, drone, heav
 ## Sister Plugins in the EdiPrism Air-Gapped Suite
 
 - **[EdiPrism X12 EDIFACT (`#35990`)](https://plugins.jetbrains.com/plugin/35990-ediprism-x12-edifact):** 100% offline `ASC X12` & `UN/EDIFACT` loop inspector, semantic diff, `BigDecimal` balancing validator, and HIPAA Safe Harbor scrubber ([GitHub Docs](https://github.com/EdiPrism/ediprism)).
-- **[EbcdicPrism Copybook Viewer](https://ediprism.github.io/cobol/):** 100% offline `COBOL Copybook` (`.cpy`), binary `EBCDIC` / `COMP-3` record overlay, `S0C7` validator, and `PCI-DSS` binary scrubber ([GitHub Docs](https://github.com/EdiPrism/ebcdicprism)).
+- **[EbcdicPrism Copybook Viewer (`#36104`)](https://plugins.jetbrains.com/plugin/36104-ebcdicprism-copybook-viewer):** 100% offline `COBOL Copybook` (`.cpy`), binary `EBCDIC` / `COMP-3` record overlay, `S0C7` validator, and `PCI-DSS` binary scrubber ([GitHub Docs](https://github.com/EdiPrism/ebcdicprism)).
 
 ---
 
